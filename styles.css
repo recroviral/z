@@ -9,12 +9,20 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 400px;
+    background-color: white;
+    margin: 20px;
     padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Elevate the container */
+    text-align: center;
 }
 
 header {
@@ -29,11 +37,7 @@ header img {
 }
 
 #contact, #services {
-    background-color: white;
     margin: 20px 0;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 #services ul {
